@@ -1,0 +1,53 @@
+[35m.env.template[m[36m:[m[32m1[m[36m:[mAZURE_[1;31mOPENAI[m_ENDPOINT=
+[35m.env.template[m[36m:[m[32m2[m[36m:[mAZURE_[1;31mOPENAI[m_API_KEY=
+[35m.env.template[m[36m:[m[32m3[m[36m:[mAZURE_[1;31mOPENAI[m_DEPLOYMENT=
+[35m.env.template[m[36m:[m[32m4[m[36m:[mAZURE_[1;31mOPENAI[m_API_VERSION=
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m615[m[36m:[mAZURE_[1;31mOPENAI[m_ENDPOINT=EXAMPLE
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m616[m[36m:[mAZURE_[1;31mOPENAI[m_API_KEY=EXAMPLE
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m617[m[36m:[mAZURE_[1;31mOPENAI[m_DEPLOYMENT=gpt-4o-mini
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m642[m[36m:[m    AZURE_[1;31mOPENAI[m_ENDPOINT = os.getenv('AZURE_[1;31mOPENAI[m_ENDPOINT')
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m643[m[36m:[m    AZURE_[1;31mOPENAI[m_API_KEY = os.getenv('AZURE_[1;31mOPENAI[m_API_KEY')
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m644[m[36m:[m    AZURE_[1;31mOPENAI[m_DEPLOYMENT = os.getenv('AZURE_[1;31mOPENAI[m_DEPLOYMENT', 'gpt-4o-mini')
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m661[m[36m:[m    required_vars = ['AZURE_[1;31mOPENAI[m_ENDPOINT', 'AZURE_[1;31mOPENAI[m_API_KEY']
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m674[m[36m:[mAZURE_[1;31mOPENAI[m_ENDPOINT=https://your-endpoint.cognitiveservices.azure.com/
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m675[m[36m:[mAZURE_[1;31mOPENAI[m_API_KEY=your_api_key_here
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m676[m[36m:[mAZURE_[1;31mOPENAI[m_DEPLOYMENT=gpt-4o-mini
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m677[m[36m:[mAZURE_[1;31mOPENAI[m_API_VERSION=2025-01-01-preview
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m1126[m[36m:[mexport AZURE_[1;31mOPENAI[m_API_KEY=$(vault kv get -field=api_key secret/openai)
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m1228[m[36m:[m            azure_endpoint=AZURE_[1;31mOPENAI[m_ENDPOINT,
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m1229[m[36m:[m            api_key=AZURE_[1;31mOPENAI[m_API_KEY,
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m1230[m[36m:[m            api_version=AZURE_[1;31mOPENAI[m_API_VERSION
+[35mPorter Request Analytics Chatbot - Complete Documentation.md[m[36m:[m[32m1234[m[36m:[m            model=AZURE_[1;31mOPENAI[m_DEPLOYMENT,
+[35mPorter Request Analytics Chatbot - Focused Documentation.md[m[36m:[m[32m285[m[36m:[mAZURE_[1;31mOPENAI[m_ENDPOINT=https://your-endpoint.cognitiveservices.azure.com/
+[35mPorter Request Analytics Chatbot - Focused Documentation.md[m[36m:[m[32m286[m[36m:[mAZURE_[1;31mOPENAI[m_API_KEY=your_api_key_here
+[35mPorter Request Analytics Chatbot - Focused Documentation.md[m[36m:[m[32m287[m[36m:[mAZURE_[1;31mOPENAI[m_DEPLOYMENT=gpt-4o-mini
+[35mREADME.md[m[36m:[m[32m68[m[36m:[m[1;31mOPENAI[m_API_KEY=your_openai_api_key_here
+[35mREADME.md[m[36m:[m[32m172[m[36m:[m| `[1;31mOPENAI[m_API_KEY` | OpenAI API key | Required |
+[35mREADME.md[m[36m:[m[32m306[m[36m:[m**Solution**: Add `[1;31mOPENAI[m_API_KEY` to your `.env` file
+[35mbash code needed to start.txt[m[36m:[m[32m2[m[36m:[m[1;31mOPENAI[m_API_KEY=EXAMPLE
+[35mconfig.py[m[36m:[m[32m16[m[36m:[m    AZURE_[1;31mOPENAI[m_ENDPOINT = os.getenv('AZURE_[1;31mOPENAI[m_ENDPOINT', '')
+[35mconfig.py[m[36m:[m[32m17[m[36m:[m    AZURE_[1;31mOPENAI[m_API_KEY = os.getenv('AZURE_[1;31mOPENAI[m_API_KEY', '')
+[35mconfig.py[m[36m:[m[32m18[m[36m:[m    AZURE_[1;31mOPENAI[m_DEPLOYMENT = os.getenv('AZURE_[1;31mOPENAI[m_DEPLOYMENT', 'gpt-4o-mini')
+[35mconfig.py[m[36m:[m[32m19[m[36m:[m    AZURE_[1;31mOPENAI[m_API_VERSION = os.getenv('AZURE_[1;31mOPENAI[m_API_VERSION', '2025-01-01-preview')
+[35mconfig.py[m[36m:[m[32m22[m[36m:[m    [1;31mOPENAI[m_API_KEY = os.getenv('[1;31mOPENAI[m_API_KEY', '')
+[35mconfig.py[m[36m:[m[32m23[m[36m:[m    [1;31mOPENAI[m_MODEL = os.getenv('[1;31mOPENAI[m_MODEL', 'gpt-4')
+[35mconfig.py[m[36m:[m[32m24[m[36m:[m    [1;31mOPENAI[m_TEMPERATURE = float(os.getenv('[1;31mOPENAI[m_TEMPERATURE', '0.1'))
+[35mconfig.py[m[36m:[m[32m25[m[36m:[m    [1;31mOPENAI[m_MAX_TOKENS = int(os.getenv('[1;31mOPENAI[m_MAX_TOKENS', '1000'))
+[35mconfig.py[m[36m:[m[32m91[m[36m:[m        has_azure_openai = cls.AZURE_[1;31mOPENAI[m_ENDPOINT and cls.AZURE_[1;31mOPENAI[m_API_KEY
+[35mconfig.py[m[36m:[m[32m92[m[36m:[m        has_regular_openai = cls.[1;31mOPENAI[m_API_KEY
+[35mconfig.py[m[36m:[m[32m95[m[36m:[m            required_vars.extend(['AZURE_[1;31mOPENAI[m_ENDPOINT', 'AZURE_[1;31mOPENAI[m_API_KEY'])
+[35mdeploy.sh[m[36m:[m[32m109[m[36m:[m            echo "  - [1;31mOPENAI[m_API_KEY: Your OpenAI API key"
+[35mdeploy.sh[m[36m:[m[32m226[m[36m:[m    required_vars=("[1;31mOPENAI[m_API_KEY")
+[35mdeploy.sh[m[36m:[m[32m419[m[36m:[m[1;31mOPENAI[m_API_KEY=$openai_key
+[35mmain.py[m[36m:[m[32m210[m[36m:[m        if Config.AZURE_[1;31mOPENAI[m_ENDPOINT and Config.AZURE_[1;31mOPENAI[m_API_KEY:
+[35mmain.py[m[36m:[m[32m212[m[36m:[m                azure_endpoint=Config.AZURE_[1;31mOPENAI[m_ENDPOINT,
+[35mmain.py[m[36m:[m[32m213[m[36m:[m                api_key=Config.AZURE_[1;31mOPENAI[m_API_KEY,
+[35mmain.py[m[36m:[m[32m214[m[36m:[m                api_version=Config.AZURE_[1;31mOPENAI[m_API_VERSION
+[35mmain.py[m[36m:[m[32m216[m[36m:[m            self.model = Config.AZURE_[1;31mOPENAI[m_DEPLOYMENT
+[35mmain.py[m[36m:[m[32m219[m[36m:[m        elif Config.[1;31mOPENAI[m_API_KEY:
+[35mmain.py[m[36m:[m[32m220[m[36m:[m            self.client = openai.OpenAI(api_key=Config.[1;31mOPENAI[m_API_KEY)
+[35mmain.py[m[36m:[m[32m221[m[36m:[m            self.model = Config.[1;31mOPENAI[m_MODEL
+[35mtest_chatbot.py[m[36m:[m[32m198[m[36m:[m        with patch.dict(os.environ, {'[1;31mOPENAI[m_API_KEY': 'test-key'}):
+[35mtest_chatbot.py[m[36m:[m[32m220[m[36m:[m        with patch.dict(os.environ, {'[1;31mOPENAI[m_API_KEY': 'test-key'}):
+[35mtest_chatbot.py[m[36m:[m[32m233[m[36m:[m            '[1;31mOPENAI[m_API_KEY': 'test-key',
+[35mtest_chatbot.py[m[36m:[m[32m321[m[36m:[m    os.environ['[1;31mOPENAI[m_API_KEY'] = 'test-key-for-testing'
